@@ -1,0 +1,23 @@
+{
+  "name": "clickhouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git add . && git commit -m 'x' && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josepabellana/ClickHouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josepabellana/ClickHouse/issues"
+  },
+  "homepage": "https://github.com/josepabellana/ClickHouse#readme",
+  "dependencies": {
+    "@clickhouse/client": "^0.0.16",
+    "env": "^0.0.2"
+  }
+}
