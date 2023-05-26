@@ -1,4 +1,4 @@
-import { createClient } from '@clickhouse/client'
+const { createClient } = require('@clickhouse/client');
 
 const client = createClient({
     host: process.env.CLICKHOUSE_HOST ?? 'http://localhost:8123',
